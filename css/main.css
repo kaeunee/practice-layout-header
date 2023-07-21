@@ -1,0 +1,51 @@
+/* selector 문법 > ~안에 있는 직계자식
+selector 문법 공백 ~안에 있는 모든자식 */
+
+.navbar li {
+    display: inline-block;
+    /* 모든 li 태그들이 inline-block을 가짐 */
+    width: 60px;
+    text-align: center;
+    background-color: #eee;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.navbar a {
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.container {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    /* +display:block 가운데 정렬하는 코드 */
+}
+
+.content {
+    margin-top: 10px;
+}
+
+.left-content {
+    width: 80%;
+    height: 200px;
+    background: #eee;
+    float: left;
+}
+
+.right-img {
+    width: 20%;
+    height: 200px;
+    /* background: yellow; */
+    float: left;
+}
+
+.profile-img {
+    width: 70px;
+    float:left;
+}
+
+.profile-info {
+    float: left;
+}
